@@ -12,7 +12,7 @@ def test_01():
     # Test if the homework script runs without errors
     try:
         subprocess.run(
-            "bash run.sh",
+            "source run.sh",
             shell=True,
             check=True,
         )
